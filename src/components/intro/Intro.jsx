@@ -22,7 +22,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <div className="i-description">
-                        <p>Apasionado desarrollador web full stack. Creador del e-comerce Barbershop. Una idea ? <a href="https://"> Hablemos</a> 😉</p>
+                        <p>Apasionado desarrollador web full stack. Creador del e-comerce Barbershop. Una idea ?  <a  href="#contact">Contactame</a> 😉</p>
                     </div>
                 </div>
                 <svg

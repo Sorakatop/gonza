@@ -111,7 +111,7 @@ const Contact = () => {
                              style={animationStyle}
                              className="icon"
                             />                            
-                             <a  href="mailto:alcocergonzalomatias@gmail.com">Contactame</a>
+                             <a id='contact' href="mailto:alcocergonzalomatias@gmail.com">Contactame</a>
                         </div>
                         <div className="c-info-item">
                             <Lottie 
