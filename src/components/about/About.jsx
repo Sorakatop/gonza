@@ -15,10 +15,10 @@ const About = () => {
                     Acerca de mi
                 </h1>
                 <p className="a-sub">
-                    Desarrollador web. Egresado de Digital House, incursionando en el mundo it, creador de e-comerce como Barbanegra.
+                    Desarrollador web. Egresado de Digital House, incursionando en el mundo it, creador de e-comerces. Mira mis proyectos mas abajo
                 </p>
                 <p className="a-desc">
-                    Creando aplicaciones con React JS, Experiencia en NODEJS con Express y mySQL. El box de sugerencia y consultas siempre estan a disposicion de alguna idea o sugerencia que tengas.
+                    Creando aplicaciones con React JS, Experiencia en NODEJS con Express y mySQL. El box de  consultas y sugerencia siempre estan para realizar tu idea.
                 </p>
                 <div className="animation">
                     <div className="animation-file ">
