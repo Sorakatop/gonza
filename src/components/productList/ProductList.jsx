@@ -7,10 +7,10 @@ const ProductList = () => {
         <div className='pl'>
             <div className="pl-text">
                 <h1 className="pl-title">
-                    Mi trabajo
+                    Mis proyectos
                 </h1>
                 <p className="pl-desc">
-                    Trabajo con relevancia en los que participe o desarrolle
+                    Proyectos realizados de manera freelance, y autodidacta 🐱‍💻
                 </p>
             </div>
             <div className="pl-list">
