@@ -139,7 +139,7 @@ const Contact = () => {
                             options={{animationData:Ok, ...defaultOptions}}
                             style={ok}
                              className="icon"
-                            />  <p>Gracias por contactartes...</p>
+                            />  <p>Gracias por contactarte...</p>
                         </div>}
                         <div>
                         {error?<p className='alerta-error'>Todos los campos son obligatorios</p>: null}
