@@ -52,9 +52,7 @@ const Intro = () => {
                   style={{animationStyle}}
                   className="i-animation"           
                  />
-                </div>
-                
-                
+                </div>       
             </div>
         </div>
     )
