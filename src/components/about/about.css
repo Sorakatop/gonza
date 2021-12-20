@@ -76,7 +76,8 @@
         width: 100%;
     }
     .a-card{
-        height: 60%;
+        margin-top: 50px;
+        height: 30vh;
     }
     .a-card.bg{
         display: none;
