@@ -97,7 +97,7 @@ animation: move 10s ease-in-out infinite alternate;
 
 .i-animation-container{
     width: 100%;
-    margin-top: 30%;
+    margin-top: 12%;
 }
 @media screen and (max-width: 480px) {
     .i {
