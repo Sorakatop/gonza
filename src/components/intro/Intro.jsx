@@ -1,8 +1,25 @@
 import React from 'react'
-import Me from '../../../src/img/morfeo.gif'
-
-
+/* import Me from '../../../src/img/morfeo.gif' */
+//lottie
+import Lottie from 'react-lottie'
+import Me from '../assets/lotties/82423-developer-yoga.json'
 import "./intro.css"
+//cfg lottie animations
+const defaultOptions = {
+  loop:true,
+  autoplay:true,
+  rendererSettings: {
+      preserveAspectRatio: 'xMinYMin slice'
+  },
+  
+}
+
+const animationStyle = {
+  margin:0,
+  border: "none",
+  width:300,
+  height:300,
+  };
 
 
 const Intro = () => {
@@ -84,7 +101,14 @@ const Intro = () => {
             </div>
             <div className="i-right">
                 <div className="i-bg"></div>
-                <img src={Me} alt="" className="i-img" />
+                <div className="i-animation-container">
+                <Lottie 
+                 options={{animationData:Me, ...defaultOptions}}
+                  style={{animationStyle}}
+                  className="i-animation"           
+                 />
+                </div>
+                
                 
             </div>
         </div>

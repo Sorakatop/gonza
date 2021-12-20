@@ -5,6 +5,8 @@ import ProductList from "./components/productList/ProductList";
 import Contact from "./components/contact/Contact";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
+//lottie
+import Lottie from 'react-lottie'
 
 const App = () => {
   
