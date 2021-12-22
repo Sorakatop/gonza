@@ -27,8 +27,8 @@ const Intro = () => {
         <div className="i">
             <div className="i-left">
                 <div className="i-left-wrapper">
-                    <h2 className="i-intro"> Bienvenidos, mi nombre es </h2>
-                    <h1 className="i-name">Gonzalo Alcocer</h1>
+                    <h2 className="i-intro"> Bienvenidos👋 soy</h2>
+                    <h1 className="i-name">Gonzalo </h1>
                     <div className="i-tittle">
                         <div className="i-tittle-wrapper">
                             <div className="i-tittle-item"> Front-end Developer</div>
@@ -39,7 +39,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <div className="i-description">
-                        <p>Apasionado desarrollador web full stack. Creador del e-comerce Barbershop. Una idea ?  <a  href="#contact">Contactame</a> 😉</p>
+                        <p>Apasionado desarrollador web full stack.Tenes alguna idea ?  <a  href="#contact">Hablemos</a></p>
                     </div>
                 </div>
 

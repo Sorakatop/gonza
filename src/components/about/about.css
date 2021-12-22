@@ -90,3 +90,12 @@
         margin: 30px 0;
     }
 }
+@media screen and (min-width:768px){
+    .a-card{
+        height: 40vh;
+    }
+    .a-card.bg{
+        top: 272px;
+    }
+
+}

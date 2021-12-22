@@ -20,6 +20,10 @@
     flex:1;
     position:relative;
     padding: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .i-left-wrapper{
@@ -119,6 +123,11 @@ animation: move 10s ease-in-out infinite alternate;
        font-size: 25px;
        }
     
+  }
+  @media screen and (max-width: 768px)  {
+    .i-tittle-item{
+        font-size: 25px;
+    }
   }
   @media (min-width:1500px){
     .i-animation-container{

@@ -40,11 +40,18 @@
     }
 }
 
+@media screen and (max-width:480px){
+    .pl{
+        margin-top: 200px;
+    }
+}
+
+
 @media screen and (max-width:320px) {
     .pl-title{        
         font-size: 30px;
         font-weight: 500;
-        margin-top: 200px;
+        margin-top: 250px;
     }
     
 }
