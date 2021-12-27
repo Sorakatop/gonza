@@ -24,7 +24,6 @@ const App = () => {
     <Toggle/>
     <Intro/>    
     <About/>
-    {/* <Skills/> */}
     <ProductList/>
     <Contact/>    
     
