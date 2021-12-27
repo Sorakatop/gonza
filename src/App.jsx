@@ -5,7 +5,6 @@ import ProductList from "./components/productList/ProductList";
 import Contact from "./components/contact/Contact";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
-import Skills from "./components/skills/Skills";
 
 
 const App = () => {
