@@ -1,6 +1,7 @@
 .c{
     height: 100vh;
     position: relative;
+    margin-top: 4%;
 }
 
 .c-bg{
@@ -91,7 +92,16 @@ button{
     flex-wrap: wrap;
     justify-content: center;
 }
-
+@media screen and (max-width: 280px){
+    .c-bg{
+        height: 120%;
+    }
+}
+@media screen and (max-width:360px){
+    .c-bg{
+        height: 120%;
+    }
+}
 @media screen and (max-width:480px){
     .c-wrapper{
         flex-direction: column;
@@ -111,5 +121,17 @@ button{
         margin-top: 0;
         display: flex;
         flex-wrap: wrap;
+    }
+   
+}
+@media screen and (min-width:540px){
+    .c-title {
+        font-size: 40px;
+    }
+    .c-right {
+        font-size: 15px;
+    }
+    .c-wrapper {
+        padding: 20px;
     }
 }

@@ -103,7 +103,7 @@ const Contact = () => {
                             style={animationStyle}
                              className="icon"
                             />
-                            <p>+5492612753077</p>
+                            <a href="https://wa.me/5492612753077" target="_blank" rel='noreferrer' >Whatsapp</a>
                         </div>
                         <div className="c-info-item">
                             <Lottie 
@@ -125,12 +125,12 @@ const Contact = () => {
                 </div>
                 <div className="c-right">
                     <p className="c-desc">
-                        <b>Lorem ipsum dolor sit.</b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ex! 
+                        <b>Tienes alguna propuesta?</b> Enviame un email, hablemos de tu idea,proyecto o propuesta🐱‍🐉
                     </p>
                     <form ref= {formRef} onSubmit={handleSubmit} id='contact'>
-                        <input style={{backgroundColor : darkMode && "#333"}} type="text" placeholder="nombre" name='name' onChange={handleChange}/>
-                        <input style={{backgroundColor : darkMode && "#333"}} type="text" placeholder="apellido" name='lastName'  onChange={handleChange} />
-                        <input style={{backgroundColor : darkMode && "#333"}} type="email" placeholder="tucorreo@dominio.com" name='email' onChange={handleChange} />
+                        <input style={{backgroundColor : darkMode && "#333"}} type="text" placeholder="Nombre" name='name' onChange={handleChange}/>
+                        <input style={{backgroundColor : darkMode && "#333"}} type="text" placeholder="Asunto" name='lastName'  onChange={handleChange} />
+                        <input style={{backgroundColor : darkMode && "#333"}} type="email" placeholder="Tucorreo@dominio.com" name='email' onChange={handleChange} />
                         <textarea style={{backgroundColor : darkMode && "#333"}} rows="5" placeholder="Mensaje" name="message" onChange={handleChange} /><br></br>
                         <button type="submit">Enviar</button>
                         {done &&
