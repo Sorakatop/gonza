@@ -37,7 +37,7 @@
 }
 
 .i-intro{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 300;
 }
 .i-name{
@@ -123,6 +123,11 @@ animation: move 10s ease-in-out infinite alternate;
        font-size: 25px;
        }
     
+  }
+  @media screen and (max-width:540px) {
+      .i-intro{
+        font-size: 26px;
+      }
   }
   @media screen and (max-width: 768px)  {
     .i-tittle-item{
