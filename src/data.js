@@ -4,6 +4,7 @@ import breakingbad from './img/product-img/breakingbad.png'
 import clima from './img/product-img/clima.png'
 import servitronic from './img/product-img/servitronic.com.ar_.png'
 import Barbanegra from './img/product-img/barbanegra-db.herokuapp.com_.png'
+import Confidencial from './img/product-img/confidencial.png'
 
 
 
@@ -37,6 +38,11 @@ export const products = [
         id: 6,
         img: clima,
         link: 'https://aplicacion-consultas-api-clima-con-react.netlify.app/',
+    },
+    {
+        id: 7,
+        img: Confidencial,
+        link: 'https://sorakatop.github.io/Confidencial/',
     },
     
 ]
