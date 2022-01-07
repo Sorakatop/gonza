@@ -16,7 +16,7 @@ const App = () => {
    <div
    style={{
    backgroundColor: darkMode? '#222' : 'white' ,
-    transition: 'all 0.5s',
+    transition: 'all 2.0s',
     transitionTimingFunction:'ease',
     color: darkMode &&'white'
   }}
