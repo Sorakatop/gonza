@@ -1,7 +1,7 @@
 import './toggle.css'
 //imagenes to do : usar lottie interactivo
-import Sun from '../../img/sun.png'
-import Moon from '../../img/moon.png'
+/* import Sun from '../../img/sun.png'
+import Moon from '../../img/moon.png' */
 //hooks
 import { useContext } from 'react'
 import { ThemeContext } from '../../context'
